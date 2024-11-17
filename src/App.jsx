@@ -1,8 +1,14 @@
-import { useState } from "react";
-function App() {
-  const [count, setCount] = useState(0);
+import "./App.css";
+import AddTodo from "./components/AddTodo";
+import Todos from "./components/Todos";
 
-  return <></>;
+function App() {
+  return (
+    <>
+      <AddTodo />
+      <Todos />
+    </>
+  );
 }
 
 export default App;
